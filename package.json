@@ -1,0 +1,23 @@
+{
+  "name": "document-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [
+    "dni",
+    "nif",
+    "nie",
+    "generator"
+  ],
+  "author": "JuanMa Ruiz",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "jest": "^25.3.0"
+  }
+}
