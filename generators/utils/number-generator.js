@@ -1,6 +1,19 @@
-const generateRandomNumber = () => {
-    const randomNumber = parseInt(Math.random() * 100000000);
-    return randomNumber.toString().length === 8 ? randomNumber : generateRandomNumber()
+const lengths = {
+    7: 10000000,
+    8: 100000000
 };
 
-module.exports = generateRandomNumber;
+const getEightOrSevenDigitsNumber = (numberLength = 8) => {
+    const randomNumber = parseInt(Math.random() * lengths[numberLength]);
+    return randomNumber.toString().length === numberLength ? randomNumber : getEightOrSevenDigitsNumber()
+};
+
+const generateNumber = () => {
+    const number = parseInt(Math.random() * 10);
+    return number > 3 ? generateNumber() : number;
+}
+
+module.exports = {
+    getEightOrSevenDigitsNumber,
+    generateNumber
+};

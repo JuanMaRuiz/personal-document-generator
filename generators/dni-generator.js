@@ -1,11 +1,9 @@
-const randomNumber = require('./utils/number-generator');
-const letters = ['T','R','W','A','G','M','Y','F','P','D','X','B','N','J','Z','S','Q','V','H','L','C','K','E'];
-
-const getLetter = (dniNumber) => letters[dniNumber%23];
+const {getEightOrSevenDigitsNumber} = require('./utils/number-generator');
+const { getControlLetter } = require('./utils/letter-generator');
 
 const getValidDNI = () => {
-    const number = randomNumber();
-    return `${number}${getLetter(number)}`;
+    const number = getEightOrSevenDigitsNumber();
+    return `${number}${getControlLetter(number)}`;
 };
 
 module.exports = {
