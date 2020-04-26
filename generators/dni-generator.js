@@ -6,6 +6,4 @@ const getValidDNI = () => {
     return `${number}${getControlLetter(number)}`;
 };
 
-module.exports = {
-    getValidDNI,
-};
+module.exports = getValidDNI
