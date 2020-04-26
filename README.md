@@ -13,19 +13,13 @@ npm i document-generator --save-dev
 ## Usage
 
 ```bash
-const { ge = require('document-generator');
+const { getValidDNI, generateValidNIE } = require('document-generator');
 
-slugify('I ♥ Dogs');
-//=> 'i-love-dogs'
+getValidDNI();
+//=> '30292557Q'
 
-slugify('  Déjà Vu!  ');
-//=> 'deja-vu'
-
-slugify('fooBar 123 $#%');
-//=> 'foo-bar-123'
-
-slugify('я люблю единорогов');
-//=> 'ya-lyublyu-edinorogov'
+getValidNIE();
+//=> 'Z5247524X'
 ```
 
 ### Why this tool?
