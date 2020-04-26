@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/JuanMaRuiz/document-generator.svg?branch=master)](https://travis-ci.org/JuanMaRuiz/document-generator)
-
-# Personal document (DNI, NIF, NIE) generator
+# Personal document (DNI, NIF, NIE) generator [![Build Status](https://travis-ci.org/JuanMaRuiz/document-generator.svg?branch=master)](https://travis-ci.org/JuanMaRuiz/document-generator)
 
 Generate a random and valid DNI/NIF or NIE.
 
