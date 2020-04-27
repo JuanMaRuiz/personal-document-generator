@@ -2,7 +2,7 @@
 
 # Personal document (DNI, NIF, NIE) generator
 
-Generate a random and valid DNI/NIF or NIE.
+Generate a random and valid Spanish DNI/NIF or NIE.
 
 ## Install
 
