@@ -5,6 +5,6 @@ const getControlLetter = (dniNumber) => letters[dniNumber % 23];
 const getFirsNieLetter = (number) => firstNieLetter[number];
 
 module.exports = {
-    getControlLetter,
-    getFirsNieLetter
+  getControlLetter,
+  getFirsNieLetter
 };

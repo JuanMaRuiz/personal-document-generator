@@ -15,5 +15,14 @@
                 "expect": true
             }
         }
-    ] 
+    ],
+    "rules": {
+        "prefer-const": "error",
+        "semi": "error",
+        "no-var": "error",
+        "indent": [
+            "error",
+            2
+        ]
+    }
 }
