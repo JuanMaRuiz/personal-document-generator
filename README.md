@@ -13,7 +13,7 @@ npm i personal-document-generator --save-dev
 ## Usage
 
 ```bash
-const { getValidDNI, generateValidNIE } = require('document-generator');
+const { getValidDNI, generateValidNIE } = require('personal-document-generator');
 
 getValidDNI();
 //=> '30292557Q'

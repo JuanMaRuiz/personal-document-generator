@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.1.4] - 2020-05-29
+### Added
+* Fix usage example in README
+
 ## [0.1.3] - 2020-05-29
 ### Added
 * Fix install command on README
