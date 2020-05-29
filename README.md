@@ -7,7 +7,7 @@ Generate a random and valid Spanish DNI/NIF or NIE.
 ## Install
 
 ```bash
-npm i document-generator --save-dev
+npm i personal-document-generator --save-dev
 ```
 
 ## Usage
