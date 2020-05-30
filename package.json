@@ -17,6 +17,7 @@
   "author": "JuanMa Ruiz",
   "license": "ISC",
   "devDependencies": {
+    "coveralls": "^3.1.0",
     "eslint": "^6.8.0",
     "jest": "^25.3.0"
   },
