@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/JuanMaRuiz/document-generator.svg?branch=master)](https://travis-ci.org/JuanMaRuiz/document-generator)
-[![Coverage Status](https://coveralls.io/repos/github/JuanMaRuiz/document-generator/badge.svg?branch=master)](https://coveralls.io/github/JuanMaRuiz/document-generator?branch=master)
+[![Build Status](https://travis-ci.org/JuanMaRuiz/personal-document-generator.svg?branch=master)](https://travis-ci.org/JuanMaRuiz/personal-document-generator)
+[![Coverage Status](https://coveralls.io/repos/github/JuanMaRuiz/personal-document-generator/badge.svg?branch=master)](https://coveralls.io/github/JuanMaRuiz/personal-document-generator?branch=master)
 
 # Personal document (DNI, NIF, NIE) generator
 
