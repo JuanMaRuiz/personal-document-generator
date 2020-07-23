@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.1.6] - 2020-07-22
+### Upgrade
+* Upgrade dependencies
+
 ## [0.1.5] - 2020-05-30
 ### Added
 * Add coveralls and badge to README

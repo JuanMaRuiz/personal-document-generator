@@ -1,6 +1,6 @@
 {
   "name": "personal-document-generator",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -18,8 +18,8 @@
   "license": "ISC",
   "devDependencies": {
     "coveralls": "^3.1.0",
-    "eslint": "^6.8.0",
-    "jest": "^25.3.0"
+    "eslint": "^7.5.0",
+    "jest": "^26.1.0"
   },
   "repository": {
     "type": "git",
