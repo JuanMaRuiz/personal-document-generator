@@ -1,4 +1,4 @@
-const getValidNIE = require('../../generators/nie-generator');
+import { getValidNIE } from '../../generators/nie-generator';
 
 test('should return a string with the correct format X, Y or Z letter 7 numbers and a letter', () => {
   let n = 5;
