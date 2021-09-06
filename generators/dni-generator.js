@@ -1,9 +1,7 @@
-const {getEightOrSevenDigitsNumber} = require('./utils/number-generator');
-const { getControlLetter } = require('./utils/letter-generator');
+import {getEightOrSevenDigitsNumber} from './utils/number-generator.js';
+import { getControlLetter } from './utils/letter-generator.js';
 
-const getValidDNI = () => {
+export const getValidDNI = () => {
   const number = getEightOrSevenDigitsNumber();
   return `${number}${getControlLetter(number)}`;
 };
-
-module.exports = getValidDNI;
