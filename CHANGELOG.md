@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.0.0] - 2020-09-06
+### Convert to esm module
+* Package converted to esm module
+
 ## [0.1.6] - 2020-07-22
 ### Upgrade
 * Upgrade dependencies

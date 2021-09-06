@@ -3,6 +3,8 @@
 
 # Personal document (DNI, NIF, NIE) generator
 
+> **Breaking change** from **version 1.0.0**. From v1.0.0 this module should be used as esm module. If you prefer use as CommonJS Module, install previous **v0.1.6**
+
 Generate a random and valid Spanish DNI/NIF or NIE.
 
 ## Install
