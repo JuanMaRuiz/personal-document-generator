@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.0.1] - 2020-09-07
+### Fix documentation
+* Fix "How to use" section in README
+
 ## [1.0.0] - 2020-09-06
 ### Convert to esm module
 * Package converted to esm module
