@@ -15,6 +15,21 @@ npm i personal-document-generator --save-dev
 
 ## Usage
 
+
+**Version v1.0.0**
+
+```bash
+import { getValidDNI, generateValidNIE } from 'personal-document-generator';
+
+getValidDNI();
+//=> '30292557Q'
+
+getValidNIE();
+//=> 'Z5247524X'
+```
+
+**Version v0.1.6**
+
 ```bash
 const { getValidDNI, generateValidNIE } = require('personal-document-generator');
 
