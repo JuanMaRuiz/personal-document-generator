@@ -5,18 +5,18 @@ test('should generate a number', () => {
 });
 
 test('should generate a number of 8 digits by default', () => {
-    expect(getEightOrSevenDigitsNumber().toString().length).toBe(8);
+    expect(getEightOrSevenDigitsNumber().toString()).toHaveLength(8);
 });
 
 test('should generate a number with the passed number of digits', () => {
-    expect(getEightOrSevenDigitsNumber(8).toString().length).toBe(8);
-    expect(getEightOrSevenDigitsNumber(7).toString().length).toBe(7);
+    expect(getEightOrSevenDigitsNumber(8).toString()).toHaveLength(8);
+    expect(getEightOrSevenDigitsNumber(7).toString()).toHaveLength(7);
 });
 
 test('getEightOrSevenDigitsNumber should return a number of 7 digits', () => {
     let n = 8;
     while ( n > 0 ) {
-        expect(getEightOrSevenDigitsNumber(7).toString().length).toBe(7);
+        expect(getEightOrSevenDigitsNumber(7).toString()).toHaveLength(7);
         n--;
     }
 });
