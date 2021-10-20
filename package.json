@@ -22,6 +22,7 @@
   "author": "JuanMa Ruiz",
   "license": "ISC",
   "devDependencies": {
+<<<<<<< HEAD
     "@babel/preset-env": "^7.15.4",
     "coveralls": "^3.1.0",
     "eslint": "^7.5.0",
@@ -33,4 +34,10 @@
     "url": "https://github.com/JuanMaRuiz/document-generator.git"
   },
   "homepage": "https://github.com/JuanMaRuiz/document-generator"
+=======
+    "eslint": "^6.8.0",
+    "eslint-plugin-jest": "^25.2.2",
+    "jest": "^25.3.0"
+  }
+>>>>>>> (feat) configure eslint-jest linter
 }
