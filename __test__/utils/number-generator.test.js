@@ -6,6 +6,7 @@ test('should generate a number', () => {
 
 test('should generate a number of 8 digits by default', () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
   expect(getEightOrSevenDigitsNumber().toString().length).toBe(8);
 });
 
@@ -25,6 +26,12 @@ test('getEightOrSevenDigitsNumber should return a number of 7 digits', () => {
 });
 
 test('should generate a number with the passed number of digits', () => {
+=======
+    expect(getEightOrSevenDigitsNumber().toString()).toHaveLength(8);
+});
+
+test('should generate a number with the passed number of digits', () => {
+>>>>>>> ae5b300c3ef67203b70748299a1fc2c3f2ec83e6
     expect(getEightOrSevenDigitsNumber(8).toString()).toHaveLength(8);
     expect(getEightOrSevenDigitsNumber(7).toString()).toHaveLength(7);
 });

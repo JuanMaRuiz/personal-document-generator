@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 [![Build Status](https://travis-ci.org/JuanMaRuiz/personal-document-generator.svg?branch=master)](https://travis-ci.org/JuanMaRuiz/personal-document-generator)
 [![Coverage Status](https://coveralls.io/repos/github/JuanMaRuiz/personal-document-generator/badge.svg?branch=master)](https://coveralls.io/github/JuanMaRuiz/personal-document-generator?branch=master)
 
 # Personal document (DNI, NIF, NIE) generator
+=======
+# Personal document (DNI, NIF, NIE) generator [![Build Status](https://travis-ci.org/JuanMaRuiz/document-generator.svg?branch=master)](https://travis-ci.org/JuanMaRuiz/document-generator)
+>>>>>>> ae5b300c3ef67203b70748299a1fc2c3f2ec83e6
 
 > **Breaking change** from **version 1.0.0**. From v1.0.0 this module should be used as esm module. If you prefer use as CommonJS Module, install previous **v0.1.6**
 
