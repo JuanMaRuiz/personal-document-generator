@@ -21,12 +21,12 @@
   "author": "JuanMa Ruiz",
   "license": "MIT",
   "devDependencies": {
-    "@release-it/conventional-changelog": "^9.0.4",
+    "@release-it/conventional-changelog": "9.0.4",
     "coveralls": "^3.1.1",
     "eslint": "^7.5.0",
     "npm-check-updates": "17.1.13",
-    "release-it": "^17.11.0",
-    "vitest": "^2.1.8"
+    "release-it": "17.11.0",
+    "vitest": "2.1.8"
   },
   "repository": {
     "type": "git",
