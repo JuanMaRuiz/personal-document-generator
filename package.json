@@ -10,7 +10,7 @@
     "ncu": "ncu -i --format group",
     "release:dry": "release-it --dry-run -c ./.release/release-it.json",
     "release": "release-it -c ./.release/release-it.json",
-    "test": "jest"
+    "test": "vitest"
   },
   "keywords": [
     "dni",
@@ -21,13 +21,13 @@
   "author": "JuanMa Ruiz",
   "license": "MIT",
   "devDependencies": {
-    "@babel/preset-env": "^7.26.0",
     "@release-it/conventional-changelog": "^9.0.4",
     "coveralls": "^3.1.1",
     "eslint": "^7.5.0",
     "jest": "^26.6.3",
     "npm-check-updates": "17.1.13",
-    "release-it": "^17.11.0"
+    "release-it": "^17.11.0",
+    "vitest": "^2.1.8"
   },
   "repository": {
     "type": "git",
