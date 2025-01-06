@@ -1,4 +1,6 @@
-const { getEightOrSevenDigitsNumber, generateNumber } = require('../../generators/utils/number-generator');
+import { expect, test } from 'vitest';
+
+import { getEightOrSevenDigitsNumber, generateNumber } from '../../generators/utils/number-generator.js';
 
 test('should generate a number', () => {
   expect(typeof getEightOrSevenDigitsNumber()).toBe('number');
