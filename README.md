@@ -19,7 +19,7 @@ npm i personal-document-generator --save-dev
 **Version v1.0.0**
 
 ```bash
-import { getValidDNI, generateValidNIE } from 'personal-document-generator';
+import { getValidDNI, getValidNIE } from 'personal-document-generator';
 
 getValidDNI();
 //=> '30292557Q'
@@ -31,7 +31,7 @@ getValidNIE();
 **Version v0.1.6**
 
 ```bash
-const { getValidDNI, generateValidNIE } = require('personal-document-generator');
+const { getValidDNI, getValidNIE } = require('personal-document-generator');
 
 getValidDNI();
 //=> '30292557Q'
