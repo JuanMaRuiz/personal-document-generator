@@ -1,4 +1,4 @@
-import {getEightOrSevenDigitsNumber} from './utils/number-generator.js';
+import { getEightOrSevenDigitsNumber } from './utils/number-generator.js';
 import { getControlLetter } from './utils/letter-generator.js';
 
 export const getValidDNI = () => {

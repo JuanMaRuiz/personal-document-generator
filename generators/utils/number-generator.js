@@ -1,6 +1,6 @@
 const lengths = {
   7: 10000000,
-  8: 100000000
+  8: 100000000,
 };
 
 export const getEightOrSevenDigitsNumber = (numberLength = 8) => {

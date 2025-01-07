@@ -5,34 +5,50 @@ All notable changes to this project will be documented in this file. See [standa
 ### [1.0.2](https://github.com/JuanMaRuiz/document-generator/compare/v1.0.1...v1.0.2) (2021-10-06)
 
 ## [1.0.1] - 2020-09-07
+
 ### Fix documentation
-* Fix "How to use" section in README
+
+- Fix "How to use" section in README
 
 ## [1.0.0] - 2020-09-06
+
 ### Convert to esm module
-* Package converted to esm module
+
+- Package converted to esm module
 
 ## [0.1.6] - 2020-07-22
+
 ### Upgrade
-* Upgrade dependencies
+
+- Upgrade dependencies
 
 ## [0.1.5] - 2020-05-30
+
 ### Added
-* Add coveralls and badge to README
+
+- Add coveralls and badge to README
 
 ## [0.1.4] - 2020-05-29
+
 ### Added
-* Fix usage example in README
+
+- Fix usage example in README
 
 ## [0.1.3] - 2020-05-29
+
 ### Added
-* Fix install command on README
+
+- Fix install command on README
 
 ## [0.1.2] - 2020-04-26
+
 ### Added
-* CHANGELOG
-* MIT LICENSE
+
+- CHANGELOG
+- MIT LICENSE
 
 ## [0.1.0] - 2020-04-26
+
 ### Added
-* Random generators for DNI, NIE and NIF.
+
+- Random generators for DNI, NIE and NIF.

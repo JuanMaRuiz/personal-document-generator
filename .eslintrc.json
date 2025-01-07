@@ -1,29 +1,26 @@
 {
-    "extends": "eslint:recommended",
-    "parserOptions": {
-        "sourceType": "module",
-        "ecmaVersion": 8
-    },
-    "env": {
-        "node": true,
-        "es6": true
-    },
-    "overrides":[
-        {
-            "files": ["*.test.js"],
-            "globals": {
-                "test": true,
-                "expect": true
-            }
-        }
-    ],
-    "rules": {
-        "prefer-const": "error",
-        "semi": "error",
-        "no-var": "error",
-        "indent": [
-            "error",
-            2
-        ]
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 8
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "overrides": [
+    {
+      "files": ["*.test.js"],
+      "globals": {
+        "test": true,
+        "expect": true
+      }
     }
+  ],
+  "rules": {
+    "prefer-const": "error",
+    "semi": "error",
+    "no-var": "error",
+    "indent": ["error", 2]
+  }
 }
