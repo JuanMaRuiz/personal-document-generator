@@ -5,11 +5,12 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "prettier:fix": "prettier . --write",
-    "eslint:fix": "eslint . --fix",
-    "prettier": "prettier . --check",
     "eslint": "eslint .",
+    "format:eslint": "eslint . --fix",
+    "format:prettier": "prettier . --write",
+    "format": "npm-run-all format:*",
     "ncu": "ncu -i --format group",
+    "prettier": "prettier . --check",
     "release:dry": "release-it --dry-run -c ./.release/release-it.json",
     "release": "release-it -c ./.release/release-it.json",
     "test": "vitest"
@@ -28,6 +29,7 @@
     "eslint": "^7.5.0",
     "eslint-config-prettier": "9.1.0",
     "npm-check-updates": "17.1.13",
+    "npm-run-all": "4.1.5",
     "prettier": "3.4.2",
     "release-it": "17.11.0",
     "vitest": "2.1.8"
