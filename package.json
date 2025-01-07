@@ -1,6 +1,6 @@
 {
   "name": "personal-document-generator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple DNI (spanish ID document number) and NIE (id number for foreing people in spain) generators.",
   "type": "module",
   "main": "index.js",

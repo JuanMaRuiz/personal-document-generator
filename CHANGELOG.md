@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.0.4](https://github.com/JuanMaRuiz/document-generator/compare/v1.0.2...v1.0.4) (2025-01-07)
+
+* ♻️ migrate to vitest ([056e962](https://github.com/JuanMaRuiz/document-generator/commit/056e9623bee9d620e2f4235fdd4034b6e0c38b7d))
+* 🎨 apply prettier rules to files ([d785077](https://github.com/JuanMaRuiz/document-generator/commit/d785077f42eaed8feada3ef17e3567ac6ee3a234))
+* 📝 fill project description in package.json file ([8bd84b4](https://github.com/JuanMaRuiz/document-generator/commit/8bd84b4502e052c090744fc1a621e7d6b25fed76))
+* 🔧 add npm-run-all for running all related scripts at once ([8ed6b72](https://github.com/JuanMaRuiz/document-generator/commit/8ed6b7200faf0cc0bc57700294853ada7251e113))
+* 🔧 migrate to eslint 9 and configure new linter scripts ([501d5e7](https://github.com/JuanMaRuiz/document-generator/commit/501d5e764f898b9e8082940b24d7943f0b7bcc51))
+* **config:** 🔧 configure ncu for update deps and reorder npm scripts ([f6d404e](https://github.com/JuanMaRuiz/document-generator/commit/f6d404ec45cc07bec066d5c62e5d7707beaa4de7))
+* **config:** 🔧 configure prettier ([e0705d6](https://github.com/JuanMaRuiz/document-generator/commit/e0705d6b79e3cb2c8eb193e4feda7eb6ac694d2f))
+* **config:** 🔧 configure release-it as release tool ([0e98cfa](https://github.com/JuanMaRuiz/document-generator/commit/0e98cfa1d0f8010c7ea9cb0978031ad229c29f64))
+* **deps:** ➖remove jest dependency ([c815adb](https://github.com/JuanMaRuiz/document-generator/commit/c815adba3c630d66513e0963363dd4bb2aba2e69))
+* **deps:** ⬆️ upgrade deps ([fb3b281](https://github.com/JuanMaRuiz/document-generator/commit/fb3b281319e591c385ac7ea43b625cb28bf84cd0))
+* **deps:** change some deps to a fixed version ([1cc25b5](https://github.com/JuanMaRuiz/document-generator/commit/1cc25b59ae3faeef8afc347547249cad4fbd6ebd))
+* release v1.0.3 ([ceea38f](https://github.com/JuanMaRuiz/document-generator/commit/ceea38fbecfc776fbcf82e3f0d6bd5d616e2e3c6))
+* update package-lock.json file ([5fce0aa](https://github.com/JuanMaRuiz/document-generator/commit/5fce0aabbf469abd794d38b8b8dfce391326257c))
+
 ## [1.0.3](https://github.com/JuanMaRuiz/document-generator/compare/v1.0.2...v1.0.3) (2025-01-07)
 
 * ♻️ migrate to vitest ([056e962](https://github.com/JuanMaRuiz/document-generator/commit/056e9623bee9d620e2f4235fdd4034b6e0c38b7d))
