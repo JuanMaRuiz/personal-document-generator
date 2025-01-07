@@ -15,7 +15,6 @@ npm i personal-document-generator --save-dev
 
 ## Usage
 
-
 **Version v1.0.0**
 
 ```bash
@@ -47,4 +46,3 @@ If you work in a project where you need to test the user forms where the user ha
 If you have an automated tool to fill for you user forms, and that forms contains an DNI/NIF/NIE input. And you need to generate a different one every time.
 
 This tool can help you.
-

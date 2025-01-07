@@ -5,5 +5,5 @@ export const getValidNIE = () => {
   const n = generateNumber();
   const firstLetter = getFirsNieLetter(n);
   const number = getEightOrSevenDigitsNumber(7);
-  return `${firstLetter}${number}${getControlLetter((n).toString() + number.toString())}`;
+  return `${firstLetter}${number}${getControlLetter(n.toString() + number.toString())}`;
 };
