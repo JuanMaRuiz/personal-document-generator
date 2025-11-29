@@ -43,6 +43,6 @@ getValidNIE();
 
 If you work in a project where you need to test the user forms where the user has to fill an input with his/her id.
 
-If you have an automated tool to fill for you user forms, and that forms contains an DNI/NIF/NIE input. And you need to generate a different one every time.
+If you have an automated tool to fill forms, and that form contains a DNI/NIF/NIE input. And you need to generate a different one every time.
 
 This tool can help you.
