@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.1.0](///compare/v1.0.2...v1.1.0) (2025-12-03)
+
 ## [1.0.4](https://github.com/JuanMaRuiz/document-generator/compare/v1.0.2...v1.0.4) (2025-01-07)
 
 - ♻️ migrate to vitest ([056e962](https://github.com/JuanMaRuiz/document-generator/commit/056e9623bee9d620e2f4235fdd4034b6e0c38b7d))
