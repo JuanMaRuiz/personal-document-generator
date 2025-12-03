@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.1.1](///compare/v1.0.2...v1.1.1) (2025-12-03)
+
 ## [1.1.0](///compare/v1.0.2...v1.1.0) (2025-12-03)
 
 ## [1.0.4](https://github.com/JuanMaRuiz/document-generator/compare/v1.0.2...v1.0.4) (2025-01-07)
